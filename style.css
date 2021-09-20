@@ -1,0 +1,91 @@
+  
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+    min-height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1554147090-e1221a04a025?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+p { 
+    text-align: center;
+    font-size: 50%;
+
+}
+
+h3{
+    font-size: xx-large;
+}
+
+table {
+    text-align: center;
+    border: 1px
+}
+
+td {
+    font-size: 20px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    
+}
+
+a{
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e960c9;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    align-items: center;
+    left: 50%;
+}
+
+.button:hover {background-color: #e960c9}
+
+.button:active {
+    background-color: #e960c9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.container .button {
+    align-items: center;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+label{
+    font-size: x-large;
+}
